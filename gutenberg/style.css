@@ -1,0 +1,38 @@
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+body {
+  background-color: #e7cf8a;
+}
+
+p {
+  margin: 2em;
+  text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  font-style: normal;
+  margin: 1em;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.fig {
+  width: 100% !important;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 500px !important;
+}
