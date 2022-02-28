@@ -1,0 +1,109 @@
+html {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px !important;
+  height: 100%;
+}
+
+body {
+  background-color: #90a4ae;
+}
+
+.welcome {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.navbar {
+  text-align: center;
+  background-color: #263238;
+  margin-top: 1em;
+  margin-bottom: 3em;
+  padding: 8px;
+}
+
+a {
+  padding-left: 2em;
+  padding-bottom: 2em;
+  text-decoration: none;
+  color: #fff;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+ul {
+  margin-top: 0.5em;
+}
+
+.item {
+  margin-bottom: 2em;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+/* cite: https://www.w3schools.com/howto/howto_css_rounded_images.asp */
+img {
+  width: 200px;
+  border-radius: 60%;
+}
+
+/* cite : https://www.w3schools.com/howto/howto_css_cards.asp */
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  background: #fff;
+  margin: 2em;
+  padding: 1.5em;
+  border: solid 1px;
+}
+
+/* cite: https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
+.sidebar {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #263238; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidebar h2 {
+  padding: 0 8px 15px 10px;
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+.sidebar li {
+  padding: 5px 12px 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #fff;
+  display: block;
+}
+
+/* Style page content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
