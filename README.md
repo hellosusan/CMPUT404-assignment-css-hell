@@ -28,7 +28,7 @@ The modifications made to the project gutenberg HTML files:
 - I update the paths of the images
 - I link my css file
 
-# Part 1
+# Part 2
 
 Citation:
 
